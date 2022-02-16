@@ -2,13 +2,15 @@
 
 - Question 2_B
 
-''sql''
+''sql
+
 CREATE USER 'utilisateur'@'localhost' IDENTIFIED BY 'id';
 ''
 
 - Question 3_B
 
 ''sql
+
 SELECT * FROM `personnage`
 INTERSECT
 SELECT * FROM `voiture`
@@ -28,7 +30,8 @@ select * from sport
 left join voiture
 on sport.id=voiture.id
 ''
-- Puis :
+- Puis 
+
 ''sql
 select id_concoursdemangeur , id_sous-marin
 from sport
