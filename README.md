@@ -2,7 +2,7 @@
 
 - Question 2_B
 
-''sql
+''sql''
 CREATE USER 'utilisateur'@'localhost' IDENTIFIED BY 'id';
 ''
 
